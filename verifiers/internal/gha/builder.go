@@ -31,6 +31,7 @@ var defaultArtifactTrustedReusableWorkflows = map[string]bool{
 	ghacommon.GenericGeneratorBuilderID: true,
 	ghacommon.GoBuilderID:               true,
 	ghacommon.ContainerBasedBuilderID:   true,
+	ghacommon.BCRBuilderId:              true,
 }
 
 var defaultContainerTrustedReusableWorkflows = map[string]bool{

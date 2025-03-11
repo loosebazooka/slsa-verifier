@@ -23,4 +23,7 @@ var (
 	GenericDelegatorBuilderID = trustedBuilderRepository + "/.github/workflows/delegator_generic_slsa3.yml"
 	// GenericLowPermsDelegatorBuilderID is the SLSA builder ID for the BYOB Generic Low-Permissions Delegated Builder.
 	GenericLowPermsDelegatorBuilderID = trustedBuilderRepository + "/.github/workflows/delegator_lowperms-generic_slsa3.yml"
+
+	// BCRReusableBuilderID is the bcr resuable workflow that generated provenance for Bazel Central Registry
+	BCRBuilderId = "https://github.com/publish-to-bcr-dev/.github/.github/workflows/release_ruleset.yaml"
 )
