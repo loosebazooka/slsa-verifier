@@ -64,7 +64,7 @@ var buildTypeMap = map[string]map[string]provFunc{
 	common.GenericLowPermsDelegatorBuilderID: {common.BYOBBuildTypeV0: newBYOB},
 	common.ContainerBasedBuilderID:           {common.ContainerBasedBuildTypeV01Draft: newContainerBased},
 	common.NpmCLIHostedBuilderID:             {common.NpmCLIGithubActionsBuildTypeV1: newNpmCLIGithubActions},
-	common.BCRBuilderId:                      {common.GithubActionsBuildTypeV1: newGithubAttest},
+	common.BCRBuilderID:                      {common.GithubActionsBuildTypeV1: newGithubAttest},
 }
 
 // New returns a new Provenance object based on the payload.
